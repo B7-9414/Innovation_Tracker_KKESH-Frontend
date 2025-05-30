@@ -1,5 +1,6 @@
 {
   "name": "innovation_tracker_frontend",
+  "homepage": "https://b7-9414.github.io/Innovation_Tracker_KKESH-Frontend/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.9.0",
