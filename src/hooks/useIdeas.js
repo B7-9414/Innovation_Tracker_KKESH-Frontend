@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from "react";
 import axios from "axios";
 
 // const API_URL = "http://localhost:8000";
-const API_URL = "https://innovation-tracker-backend-170a3ec10499.herokuapp.com/";
+const API_URL = "https://innovation-tracker-backend-170a3ec10499.herokuapp.com";
 
 export const useIdeas = () => {
   const [ideas, setIdeas] = useState([]);
